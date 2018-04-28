@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.liumapp.demo.bus</groupId>
-    <artifactId>spring-cloud-bus-demo</artifactId>
+    <groupId>com.liumapp.docker.bus</groupId>
+    <artifactId>spring-cloud-bus-in-docker</artifactId>
     <version>v1.0.0</version>
   </parent>
 
-  <groupId>com.liumapp.demo.bus.config</groupId>
+  <groupId>com.liumapp.docker.bus.config</groupId>
   <artifactId>bus-config</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
