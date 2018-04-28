@@ -8,7 +8,7 @@
     <version>v1.0.0</version>
   </parent>
 
-  <groupId>com.liumapp.demo.bus.gateway</groupId>
+  <groupId>com.liumapp.docker.bus.gateway</groupId>
   <artifactId>bus-gateway</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>

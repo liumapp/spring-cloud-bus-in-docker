@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.liumapp.demo.bus.service</groupId>
+    <groupId>com.liumapp.docker.bus.service</groupId>
     <artifactId>bus-service</artifactId>
     <version>v1.0.0</version>
   </parent>
 
-  <groupId>com.liumapp.demo.bus.service.independent</groupId>
+  <groupId>com.liumapp.docker.bus.service.independent</groupId>
   <artifactId>independent-worker</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
@@ -31,7 +31,7 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.liumapp.demo.bus.engine.job</groupId>
+      <groupId>com.liumapp.docker.bus.engine.job</groupId>
       <artifactId>long-time-job</artifactId>
       <version>v1.0.0</version>
     </dependency>
