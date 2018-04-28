@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.service.independent.customer;
+package com.liumapp.docker.bus.service.independent.customer;
 
 import com.liumapp.docker.bus.engine.job.component.DetailJob;
 import org.slf4j.Logger;

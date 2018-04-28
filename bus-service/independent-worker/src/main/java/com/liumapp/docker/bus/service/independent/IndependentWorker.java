@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.service.independent;
+package com.liumapp.docker.bus.service.independent;
 
 import com.liumapp.docker.bus.engine.job.LongTimeJob;
 import org.springframework.boot.SpringApplication;
