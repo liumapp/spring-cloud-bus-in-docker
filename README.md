@@ -43,9 +43,24 @@ A simple demo for Spring Cloud Bus .
 
 #### config rabbitmq to make data saved 
 
-
+todo
 
 ### examples 
+
+* send a job queue and make it done in independent-worker
+
+    * set job 
+    
+        open your browser , and visit : http://localhost:2333/demo-api-b/job/
+        
+        if it returns "success" , then you can find a job queue in rabbitMq's web pannel.
+        
+    * make job done 
+    
+        go to docker kitematic , and find independent-worker container's log , you can find a info : "job is done "
+        
+        this means independent-worker get the job from long-time-job queue , and make it done . 
+
 
 
 
