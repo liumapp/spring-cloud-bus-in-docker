@@ -1,6 +1,6 @@
-package com.liumapp.demo.bus.hello;
+package com.liumapp.docker.bus.hello;
 
-import com.liumapp.demo.bus.hello.producer.Sender;
+import com.liumapp.docker.bus.hello.producer.Sender;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.hello.conf;
+package com.liumapp.docker.bus.hello.conf;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

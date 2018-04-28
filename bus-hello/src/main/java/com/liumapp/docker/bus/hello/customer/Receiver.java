@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.hello.customer;
+package com.liumapp.docker.bus.hello.customer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

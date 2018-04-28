@@ -7,7 +7,7 @@ A simple demo for Spring Cloud Bus .
 
 * add a rabbitMq user in web pannel , and config the project .
 
-* after this , you can run hello function of com.liumapp.demo.bus.hello.HelloTest . 
+* after this , you can run hello function of HelloTest . 
 
     this will built a connection and put a msg into queue . 
     

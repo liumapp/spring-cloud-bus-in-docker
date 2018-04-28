@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.hello.producer;
+package com.liumapp.docker.bus.hello.producer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

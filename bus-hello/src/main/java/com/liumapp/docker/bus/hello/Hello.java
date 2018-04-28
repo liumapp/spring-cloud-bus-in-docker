@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.hello;
+package com.liumapp.docker.bus.hello;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
