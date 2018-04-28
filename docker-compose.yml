@@ -2,10 +2,13 @@ version: '2'
 
 services:
   rabbitmq:
-    image: rabbitmq:3.7.4
+    image: rabbitmq:3-management
     restart: always
     container_name: rabbitmq
     hostname: rabbitmq
+    environment:
+      RABBITMQ_DEFAULT_USER: "springcloud"
+      RABBITMQ_DEFAULT_PASS: "123456"
     ports:
       - "5672:5672"
       - "15672:15672"
