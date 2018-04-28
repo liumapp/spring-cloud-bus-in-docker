@@ -6,7 +6,7 @@ spring:
     name: bus-hello
   rabbitmq:
     port: 5672
-    host: localhost
+    host: rabbitmq
     username: springcloud
     password: 123456
 

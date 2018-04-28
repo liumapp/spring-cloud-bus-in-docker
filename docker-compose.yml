@@ -24,20 +24,28 @@ services:
         - bus-eureka
 
   bus-eureka:
-      image: liumapp/bus-eureka:v1.0.0
-      restart: always
-      container_name: bus-eureka
-      hostname: bus-eureka
-      ports:
-        - "1234:1234"
+    image: liumapp/bus-eureka:v1.0.0
+    restart: always
+    container_name: bus-eureka
+    hostname: bus-eureka
+    ports:
+      - "1234:1234"
 
   bus-gateway:
-      image: liumapp/bus-gateway:v1.0.0
-      restart: always
-      container_name: bus-gateway
-      hostname: bus-gateway
-      ports:
-        - "2333:2333"
+    image: liumapp/bus-gateway:v1.0.0
+    restart: always
+    container_name: bus-gateway
+    hostname: bus-gateway
+    ports:
+      - "2333:2333"
+
+  bus-hello:
+    image: liumapp/bus-hello:v1.0.0
+    restart: always
+    container_name: bus-hello
+    hostname: bus-hello
+    ports:
+      - "8080:8080"
 
   demo-api-a:
     image: liumapp/demo-api-a:v1.0.0
