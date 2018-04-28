@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.eureka;
+package com.liumapp.docker.bus.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
