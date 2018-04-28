@@ -14,7 +14,7 @@ echo '.'
 
 # first of all , we need install rabbitMq image from docker hub .
 
-docker pull rabbitmq:3.7.4
+docker pull rabbitmq:3.7.4-management
 
 # secondly , we build our own image from project .
 
