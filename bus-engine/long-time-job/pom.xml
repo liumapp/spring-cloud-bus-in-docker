@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.liumapp.demo.bus.engine</groupId>
+    <groupId>com.liumapp.docker.bus.engine</groupId>
     <artifactId>bus-engine</artifactId>
     <version>v1.0.0</version>
   </parent>
 
-  <groupId>com.liumapp.demo.bus.engine.job</groupId>
+  <groupId>com.liumapp.docker.bus.engine.job</groupId>
   <artifactId>long-time-job</artifactId>
   <version>v1.0.0</version>
   <packaging>jar</packaging>
