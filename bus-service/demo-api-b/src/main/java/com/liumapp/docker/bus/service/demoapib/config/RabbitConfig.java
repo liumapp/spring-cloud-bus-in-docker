@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.service.demoapib.config;
+package com.liumapp.docker.bus.service.demoapib.config;
 
 import org.springframework.amqp.core.Queue;
 import org.springframework.context.annotation.Bean;

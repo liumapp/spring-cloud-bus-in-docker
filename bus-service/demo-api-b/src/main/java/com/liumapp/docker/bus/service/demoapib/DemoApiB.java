@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.service.demoapib;
+package com.liumapp.docker.bus.service.demoapib;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
