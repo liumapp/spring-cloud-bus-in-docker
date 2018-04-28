@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.engine.job.entity;
+package com.liumapp.docker.bus.engine.job.entity;
 
 /**
  * @author liumapp

@@ -1,6 +1,6 @@
-package com.liumapp.demo.bus.engine.job;
+package com.liumapp.docker.bus.engine.job;
 
-import com.liumapp.demo.bus.engine.job.component.DetailJob;
+import com.liumapp.docker.bus.engine.job.component.DetailJob;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

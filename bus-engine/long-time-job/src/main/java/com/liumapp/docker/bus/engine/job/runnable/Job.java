@@ -1,6 +1,6 @@
-package com.liumapp.demo.bus.engine.job.runnable;
+package com.liumapp.docker.bus.engine.job.runnable;
 
-import com.liumapp.demo.bus.engine.job.entity.JobInfo;
+import com.liumapp.docker.bus.engine.job.entity.JobInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

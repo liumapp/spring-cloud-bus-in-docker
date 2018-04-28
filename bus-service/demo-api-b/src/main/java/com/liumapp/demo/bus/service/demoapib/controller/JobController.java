@@ -1,7 +1,7 @@
 package com.liumapp.demo.bus.service.demoapib.controller;
 
 import com.alibaba.fastjson.JSON;
-import com.liumapp.demo.bus.engine.job.entity.JobInfo;
+import com.liumapp.docker.bus.engine.job.entity.JobInfo;
 import org.springframework.amqp.core.AmqpTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

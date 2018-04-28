@@ -1,6 +1,6 @@
 package com.liumapp.demo.bus.service.independent;
 
-import com.liumapp.demo.bus.engine.job.LongTimeJob;
+import com.liumapp.docker.bus.engine.job.LongTimeJob;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Import;
