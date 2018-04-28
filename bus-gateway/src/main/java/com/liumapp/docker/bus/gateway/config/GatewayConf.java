@@ -1,6 +1,6 @@
-package com.liumapp.demo.bus.gateway.config;
+package com.liumapp.docker.bus.gateway.config;
 
-import com.liumapp.demo.bus.gateway.filter.AccessFilter;
+import com.liumapp.docker.bus.gateway.filter.AccessFilter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.gateway.filter;
+package com.liumapp.docker.bus.gateway.filter;
 
 import com.netflix.zuul.ZuulFilter;
 import org.slf4j.Logger;

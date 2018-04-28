@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.gateway;
+package com.liumapp.docker.bus.gateway;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.cloud.client.SpringCloudApplication;
