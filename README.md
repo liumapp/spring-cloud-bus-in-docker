@@ -31,7 +31,15 @@ A simple demo for Spring Cloud Bus .
     
     plz pay attention , this is the simplest configuration. 
     
-    I do not recommend using it in a production environment.          
+    I do not recommend using it in a production environment.
+    
+* when you build your images , simply run 
+
+        docker-compose up -d 
+    
+    then you can go to your browser , and visit http://localhost:15672 to open rabbitMQ's web panel.
+    
+    the username is "springcloud" , and the password is "123456".    
 
 #### config rabbitmq to make data saved 
 
