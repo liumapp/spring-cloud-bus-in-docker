@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.service.demoapia.controller;
+package com.liumapp.docker.bus.service.demoapia.controller;
 
 import com.alibaba.fastjson.JSON;
 import com.liumapp.docker.bus.engine.job.component.DetailJob;

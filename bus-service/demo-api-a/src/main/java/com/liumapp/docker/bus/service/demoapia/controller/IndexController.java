@@ -1,4 +1,4 @@
-package com.liumapp.demo.bus.service.demoapia.controller;
+package com.liumapp.docker.bus.service.demoapia.controller;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
