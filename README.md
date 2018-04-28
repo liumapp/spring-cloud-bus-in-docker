@@ -3,16 +3,13 @@ A simple demo for Spring Cloud Bus .
 
 ## how to use 
 
-* first of all , you need install rabbitMq in your local system 
+### rabbitMQ in Docker 
 
-* add a rabbitMq user in web pannel , and config the project .
+#### install and run rabbitmq in docker 
 
-* after this , you can run hello function of HelloTest . 
+#### config rabbitmq to make data saved 
 
-    this will built a connection and put a msg into queue . 
-    
-    you can find this in rabbitMq's web pannel , like this : 
-    
-    ![connections.jpg](https://github.com/liumapp/spring-cloud-bus-demo/blob/master/pic/connections.jpg) 
-    
-    
+### examples 
+
+
+
