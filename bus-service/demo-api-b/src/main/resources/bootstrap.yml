@@ -9,7 +9,7 @@ spring:
       profile: dev
       label: master
   rabbitmq:
-    host: localhost
+    host: rabbitmq
     port: 5672
     username: springcloud
     password: 123456
