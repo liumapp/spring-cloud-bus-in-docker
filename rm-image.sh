@@ -15,3 +15,5 @@ echo '.'
 docker rmi liumapp/bus-gateway:v1.0.0
 docker rmi liumapp/bus-eureka:v1.0.0
 docker rmi liumapp/bus-config:v1.0.0
+docker rmi liumapp/demo-api-a:v1.0.0
+docker rmi liumapp/demo-api-b:v1.0.0
