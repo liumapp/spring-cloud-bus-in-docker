@@ -2,33 +2,40 @@ version: '2'
 
 
 services:
-  docker-compose-eureka:
-    image: liumapp/docker-compose-eureka:v1.0.0
+  rabbitmq:
+    image: rabbitmq:3.7.4
     restart: always
-    container_name: docker-compose-eureka
-    hostname: docker-compose-eureka
+    container_name: rabbitmq
+    hostname: rabbitmq
     ports:
-      - "1234:1234"
+      - "5672:5672"
+      - "15672:15672"
 
-  docker-compose-config:
-    image: liumapp/docker-compose-config:v1.0.0
+  bus-config:
+    image: liumapp/bus-config:v1.0.0
     restart: always
-    container_name: docker-compose-config
-    hostname: docker-compose-config
+    container_name: bus-config
+    hostname: bus-config
     ports:
         - "7001:7001"
     depends_on:
-        - docker-compose-eureka
+        - bus-eureka
 
-  docker-compose-gateway:
-      image: liumapp/docker-compose-gateway:v1.0.0
+  bus-eureka:
+      image: liumapp/bus-eureka:v1.0.0
       restart: always
-      container_name: docker-compose-gateway
-      hostname: docker-compose-gateway
+      container_name: bus-eureka
+      hostname: bus-eureka
+      ports:
+        - "1234:1234"
+
+  bus-gateway:
+      image: liumapp/bus-gateway:v1.0.0
+      restart: always
+      container_name: bus-gateway
+      hostname: bus-gateway
       ports:
         - "2333:2333"
-      depends_on:
-        - docker-compose-eureka
 
   demo-api-a:
     image: liumapp/demo-api-a:v1.0.0
@@ -38,10 +45,8 @@ services:
     ports:
       - "8081:8081"
     depends_on:
-      - docker-compose-eureka
-      - docker-compose-config
-    volumes:
-      - /Volumes:/Volumes
+      - bus-eureka
+      - bus-config
 
   demo-api-b:
     image: liumapp/demo-api-b:v1.0.0
@@ -51,7 +56,18 @@ services:
     ports:
       - "8082:8082"
     depends_on:
-      - docker-compose-eureka
-      - docker-compose-config
-    working_dir: /usr/local/tomcat/project/docker-compose-demo/
+      - bus-eureka
+      - bus-config
+
+  independent-worker:
+    image: liumapp/independent-worker:v1.0.0
+    restart: always
+    container_name: independent-worker
+    hostname: independent-worker
+    ports:
+      - "8083:8083"
+    depends_on:
+      - bus-eureka
+      - bus-config
+
 

@@ -18,3 +18,5 @@ docker rmi liumapp/bus-config:v1.0.0
 docker rmi liumapp/demo-api-a:v1.0.0
 docker rmi liumapp/demo-api-b:v1.0.0
 docker rmi liumapp/independent-worker:v1.0.0
+
+
