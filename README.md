@@ -9,7 +9,7 @@ A simple demo for Spring Cloud Bus .
 
 * first of all , we need to set up rabbitMQ's image in docker , just simple run 
 
-        docker pull docker pull rabbitmq:3-management
+        docker pull rabbitmq:3-management
         
     or you can simple use ./build-image.sh
     
