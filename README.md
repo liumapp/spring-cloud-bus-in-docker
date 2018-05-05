@@ -13,6 +13,8 @@ A simple demo for Spring Cloud Bus .
         
     or you can simple use ./build-image.sh
     
+    plz make sure you have docker in your machine . 
+    
 * secondly , we need to make a container for rabbitMQ in docker , i've make this done in docker-compose.yml
 
       rabbitmq:
